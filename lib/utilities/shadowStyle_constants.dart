@@ -4,8 +4,8 @@ final kCardShadow = [
   BoxShadow(
     color: const Color(0xFF000000).withOpacity(.25),
     spreadRadius: -3.0,
-    blurRadius: 33.0,
-    offset: const Offset(3.0, 0.4),
+    blurRadius: 20.0,
+    offset: const Offset(0.0, 0.4),
   ),
 ];
 
@@ -21,7 +21,7 @@ final kNotificationButtonShadow = [
   BoxShadow(
     color: const Color(0xFF000000).withOpacity(.25),
     spreadRadius: -3.0,
-    blurRadius: 15.0,
+    blurRadius: 10.0,
     offset: const Offset(0, 3.00),
   ),
 ];

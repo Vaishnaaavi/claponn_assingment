@@ -8,7 +8,16 @@ class Claponn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomePage(),
+      home: HomePage(
+          // initialPage: 0,
+          ),
+      // initialRoute: ,
+      // routes: {
+      //   HomePage.id : (context) => const HomePage()
+      //   WelcomeScreen.id: (context) => const WelcomeScreen(),
+      //   ChatScreen.id: (context) => const ChatScreen(),
+      //   RegistrationScreen.id: (context) => const RegistrationScreen(),
+      // },
     );
   }
 }
